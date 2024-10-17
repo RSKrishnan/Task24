@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13127" started-at="2024-10-17T03:36:18Z" finished-at="2024-10-17T03:36:31Z">
+    <groups>
+      <group name="login">
+        <method signature="DemoPage.login()[pri:2, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="login" class="org.DemoPageSample.DemoPage"/>
+      </group> <!-- login -->
+      <group name="signup">
+        <method signature="DemoPage.signUp()[pri:1, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="signUp" class="org.DemoPageSample.DemoPage"/>
+      </group> <!-- signup -->
+    </groups>
+    <test name="Test" duration-ms="13127" started-at="2024-10-17T03:36:18Z" finished-at="2024-10-17T03:36:31Z">
+      <class name="org.DemoPageSample.DemoPage">
+        <test-method status="PASS" signature="mainPage()[pri:0, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="mainPage" is-config="true" duration-ms="6260" started-at="2024-10-17T03:36:18Z" finished-at="2024-10-17T03:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPage -->
+        <test-method status="PASS" signature="signUp()[pri:1, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="signUp" duration-ms="2236" started-at="2024-10-17T03:36:25Z" finished-at="2024-10-17T03:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="login()[pri:2, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="login" duration-ms="4394" started-at="2024-10-17T03:36:27Z" finished-at="2024-10-17T03:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.DemoPageSample.DemoPage@3a5ed7a6]" name="close" is-config="true" duration-ms="204" started-at="2024-10-17T03:36:31Z" finished-at="2024-10-17T03:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.DemoPageSample.DemoPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
